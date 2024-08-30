@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VhoTel</title>
+    <link rel="stylesheet" href="Reservation.css">
+</head>
+<body>
+      
+        <div class="navbar">
+            <ul>
+                <li><a class="Home" href="index.html">Home</a></li>
+                <li><a class="About Us" href="aboutUs.html">About Us</a></li>
+                <li><a class="Rooms" href="Rooms.html">Rooms</a></li>
+                <li><a class="Facilities" href="facilities.html">Facilities</a></li>
+                <li><a class="Reservation" href="Reservation.html">Reservation</a></li>
+            </ul>
+        </div>
+        <div class="banner">
+             
+    <section>
+        <div class="header">
+            <h3 style="margin-top: 50px; margin: bottom 0px;">Register</h3>
+
+        </div>
+        <div class="register-form">
+            <form class="cold-md-12">
+                <div style="margin-top: 50px;">
+                    <p for="name" style="font-weight: bold;">Name</p>
+                    <input style="border-radius: 25px;" type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <p for="email" style="font-weight: bold;">Email</p>
+                    <!-- <label for="email">Email:</label> -->
+                    <input style="border-radius: 25px;" type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <p for="dob" style="font-weight: bold;">Date of Birth</p>
+                    <!-- <label for="dob">Date of Birth:</label> -->
+                    <input style="border-radius: 25px;" type="date" id="dob" name="dob" required>
+                </div>
+                <div>
+                    <p for="password" style="font-weight: bold;">Create Password</p>
+                    <!-- <label for="password">Create Password:</label> -->
+                    <input style="border-radius: 25px;" type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <p for="confirm password" style="font-weight: bold;">Confirm Password</p>
+                    <!-- <label for="password">Create Password:</label> -->
+                    <input style="border-radius: 25px;" type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <div style="justify-content: left; align-items: left;">
+                        <input type="checkbox" id="privacy-policy" name="privacy-policy" required>
+                        <label for="privacy-policy">I agree to the Privacy Policy</label>
+                    </div>
+                    <div >
+                        <input type="submit" value="Register">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <section class="availability">
+
+            <form action="">
+        
+               <div class="box">
+                  <p>check in <span>*</span></p>
+                  <input type="date" class="input">
+               </div>
+        
+               <div class="box">
+                  <p>check out <span>*</span></p>
+                  <input type="date" class="input">
+               </div>
+        
+               <div class="box">
+                  <p>adults <span>*</span></p>
+                  <select name="adults" id="" class="input">
+                     <option value="1">1 adults</option>
+                     <option value="2">2 adults</option>
+                     <option value="3">3 adults</option>
+                     <option value="4">4 adults</option>
+                     <option value="5">5 adults</option>
+                     <option value="6">6 adults</option>
+                  </select>
+               </div>
+        
+               <div class="box">
+                <p>children <span>*</span></p>
+                <select name="child" id="" class="input">
+                   <option value="1">1 child</option>
+                   <option value="2">2 child</option>
+                   <option value="3">3 child</option>
+                   <option value="4">4 child</option>
+                   <option value="5">5 child</option>
+                   <option value="6">6 child</option>
+                </select>
+             </div>
+        
+             <div class="box">
+                <p>room type(s) <span>*</span></p>
+                <select name="rooms" id="" class="input">
+                   <option value="1">VIP Room</option>
+                   <option value="2">Deluxe room</option>
+                   <option value="3">Regular room</option>
+                  
+                </select>
+             </div>
+
+             <div class="box">
+                <p>rooms <span>*</span></p>
+                <select name="rooms" id="" class="input">
+                   <option value="1">1 room</option>
+                   <option value="2">2 room</option>
+                   <option value="3">3 room</option>
+                  
+                </select>
+             </div>
+        
+             <input type="submit" value="check availability" class="btn" >
+        
+        </form>
+        
+        </section>
+        
+        <footer>
+            <p>&copy; Copyright 2023 VhoTel All Rigths Reserved.</p>
+        </footer>
+        
+              
+    </section>
